@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.FirstPage {
+    min-height: 100vh;
+    box-sizing: border-box;
+    background: url('./images/main-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navbar-brand h3 {
+    font-size: 28px;
+    font-weight: 400;
+}
+.nav-item a{
+    font-size: 22px;
+}
+.heading {
+    margin-top: 200px;
+}
+.heading h1 {
+    color: rgb(49, 192, 248);
+}
+.SecondPage {
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 60px;
+}
+.left img {
+    width: 540px;
+}
+.text {
+    margin-left: 50px;
+}
+.ThirdPage {
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+.cards {
+    width: 100%;
+    height: 440px;
+}
+.card {
+    width: 280px;
+    height: 300px;
+    border: none;
+    box-shadow: 1px 3px 3px rgba(128, 128, 128, 0.884);
+}
+.card img {
+    width: 100%;
+    height: 240px;
+}
+.Contact {
+    min-height: 100vh;
+}

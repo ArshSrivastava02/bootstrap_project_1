@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturent with Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="FirstPage">
+        <nav class="navbar navbar-expand-lg container">
+            <div class="container-fluid">
+              <div class="navbar-brand text-light">
+                <h3>RESTURENTLY</h3>
+              </div>
+              <div class="menu">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#Third">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#Contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div class="Section-1 container">
+            <div class="heading">
+                <h1>Welcome to <span class="text-warning">Resturently</span><br>Delivering great food for more than 18 years!</h1>
+            </div>
+            <div class="buttons mt-4">
+                <button class="btn btn-warning me-2">Our Menu</button><button class="btn btn-warning">Book Table</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="SecondPage container d-flex">
+        <div class="left mt-2">
+            <img src="./images/gallery-2.jpg" alt="left-side-banner">
+        </div>
+        <div class="right ms-4">
+            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste facilis dicta illo placeat eligendi quo?</h3>
+            <p class="fst-italic">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti obcaecati at sequi rem hic asperiores, consequatur sint provident iste expedita. Porro, eius quibusdam. Harum deserunt eligendi alias adipisci.</p>
+            <ul class="text list-unstyled">
+                <li><img src="./images/tick.svg" width="24px" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, necessitatibus.</li>
+                <li><img src="./images/tick.svg" width="24px" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, necessitatibus.</li>
+                <li><img src="./images/tick.svg" width="24px" alt=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, necessitatibus.</li>
+            </ul>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti obcaecati at sequi rem hic asperiores, consequatur sint provident iste expedita. Porro, eius quibusdam. Harum deserunt eligendi alias adipisci.</p>
+        </div>
+    </div>
+
+    <div id="Third" class="ThirdPage container pt-2">
+        <h2 class="text-primary text-center">Why US</h2>
+        <h2 class="text-danger text-center">Why Choose Our Resturent</h2>
+        <div class="cards mt-5 d-flex justify-content-between">
+            <div class="card">
+                <img src="./images/bread-barrel.jpg" class="card-img-top" alt="Bread">
+                <div class="card-body">
+                    <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptates sapiente qui saepe quisquam cupiditate! Dolore!</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/greek-salad.jpg" class="card-img-top" alt="Bread">
+                <div class="card-body">
+                    <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptates sapiente qui saepe quisquam cupiditate! Dolore!</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/lobster-bisque.jpg" class="card-img-top" alt="Bread">
+                <div class="card-body">
+                    <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptates sapiente qui saepe quisquam cupiditate! Dolore!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Contact" class="Contact container pt-4">
+        <h2 class="text-center">Contact Us</h2>
+        <h2 class="text-center">You will get the response shortly</h2>
+        <form class="mt-5">
+            <div class="row g-3">
+                <div class="col-6"><input type="text" class="form-control" placeholder="First Name"></div>
+                <div class="col-6"><input type="text" class="form-control" placeholder="Last Name"></div>
+            </div>
+            <input type="text" class="form-control mt-3" placeholder="Subject">
+            <textarea class="form-control mt-3" rows="8" placeholder="Comment"></textarea>
+            <button class="btn btn-primary mt-3">Submit</button>
+        </form>
+    </div>
+
+    <footer class="bg-dark text-center pt-3 pb-2">
+        <h4 class="text-light container">&copy; Resturently.co.in</h4>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+</body>
+</html>

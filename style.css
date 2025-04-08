@@ -5,9 +5,8 @@
 }
 .navbar-hidden {
         transform: translateY(-100%);
-        transition: transform 0.5s ease-in-out;
+        transition: transform 0.3s ease-in-out;
 }
-
 #Letter1 {
     letter-spacing: 3px;
 }
